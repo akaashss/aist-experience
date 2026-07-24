@@ -1,4 +1,6 @@
 site_name: The AIST Experience
+site_url: https://akaashss.github.io/aist-experience/
+site_description: A practical guide to living and working at AIST Tsukuba, covering travel, accommodation, food, and everyday life for future interns.
 
 theme:
   name: material
