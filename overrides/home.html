@@ -3,9 +3,6 @@
 {% block extrahead %}
   {{ super() }}
   <style>
-    /* Scoped to this template only, never affects other pages.
-       Not fully transparent, a dark tint + blur, so the title row
-       stays legible even before the hero image fully lines up. */
     .md-header {
       background-color: rgba(0, 0, 0, 0.35);
       box-shadow: none;
@@ -37,7 +34,7 @@
       box-sizing: border-box;
       color: #fff;
       background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.65)),
-        url("assets/home/hero.jpg") no-repeat center / cover;
+        url("assets/home/hero.png") no-repeat center / cover;
     }
 
     .tx-hero__content {
@@ -73,7 +70,7 @@
         help future interns prepare for their stay.
       </p>
       <a href="{{ 'travel/' | url }}" class="md-button md-button--primary">
-        Start exploring
+        Start Exploring
       </a>
     </div>
   </section>

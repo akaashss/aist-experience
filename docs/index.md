@@ -20,15 +20,15 @@ My goal is to bring all of that information together in one place so that future
 ## About AIST
 
 <figure class="img-figure" markdown>
-![AIST](assets/home/hero-image.jpg){ loading=lazy }
-<figcaption>AIST Tsukuba Central entrance</figcaption>
+![AIST](assets/home/aist.png){ loading=lazy }
+<figcaption>AIST Tsukuba</figcaption>
 </figure>
 
 The National Institute of Advanced Industrial Science and Technology (AIST) is one of Japan's leading public research organizations, conducting research across a wide range of scientific and engineering disciplines.
 
 AIST has 12 research bases spread across Japan, headquartered in Tokyo Waterfront, with its primary research hub located in Tsukuba, Ibaraki Prefecture.
 
-The Tsukuba campus is broadly divided into three areas:
+The Tsukuba campus is divided into three areas:
 
 - Central
 - East
