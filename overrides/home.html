@@ -3,8 +3,10 @@
 {% block extrahead %}
   {{ super() }}
   <style>
+    /* Scoped to this template only, never affects other pages.
+       Fully transparent at rest, solid once scrolled. */
     .md-header {
-      background-color: rgba(0, 0, 0, 0.35);
+      background-color: transparent;
       box-shadow: none;
       transition: background-color 0.25s, box-shadow 0.25s;
     }
@@ -15,7 +17,7 @@
     }
 
     .md-tabs {
-      background-color: rgba(0, 0, 0, 0.25);
+      background-color: transparent;
     }
 
     .tx-hero {
@@ -70,7 +72,7 @@
         help future interns prepare for their stay.
       </p>
       <a href="{{ 'travel/' | url }}" class="md-button md-button--primary">
-        Start Exploring
+        Start exploring
       </a>
     </div>
   </section>
